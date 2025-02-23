@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href = "/styles/style.css">
+    <script src="/functions.js"></script>
+    <title>Mp3 player</title>
+</head>
+<body>
+    <h1>If only I still had you</h1>
+    <main>
+        <div class="music-player" id="foo">
+            <img src="/images/img1.jpg" id="albumcover" class="responsive">
+            <audio controls>
+                <source src="/audio/trialfile.mp3">
+            </audio>
+            <div class="buttons">
+                <button><i class="fa fa-heart" id="Previous"></i></button>
+                <button onclick="startplaying()"><i class="fa fa-heart" id="Play"></i></button>
+                <button><i class="fa fa-heart" id = "Next"></i></button>
+            </div>
+        </div>
+    </main>
+    <footer><small>&copy; My music player </small></footer>
+</body>
+</html>

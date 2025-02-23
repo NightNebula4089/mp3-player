@@ -1,0 +1,67 @@
+html{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+*{
+    padding: 7px;
+    justify-self: center;
+}
+
+small{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+audio{
+    color: white;
+}
+
+
+.buttons{
+    justify-self: center;
+    align-self: center;
+}
+
+i{
+    size: 30px;
+    color: white;
+}
+
+button{
+    background-color: black;
+    border-radius: 5px;
+}
+
+#albumcover{
+    width: 40%;
+    height: auto;
+    clip-path: circle(40%);
+    rotate : 0deg;
+}
+
+#Previous{
+    rotate: -90deg;
+}
+
+#Next{
+    rotate : 90deg;
+}
+
+.music-player{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
