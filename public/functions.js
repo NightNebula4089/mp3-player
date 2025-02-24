@@ -1,4 +1,3 @@
-
 var playing = false
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 var count = 0
@@ -22,6 +21,15 @@ async function startplaying(){
         await sleep(5)
         console.log(count)
     }
+}
+
+function onPrev(){
+    var img = document.getElementById("albumcover")
+    img.style.setProperty('rotate',0+'deg')
+    count = 0;
+}
+
+function onNext(){
 
 }
 
