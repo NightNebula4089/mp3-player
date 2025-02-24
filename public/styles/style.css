@@ -19,7 +19,7 @@ small{
 
 h1{
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 audio{
@@ -44,6 +44,7 @@ button{
 
 #albumcover{
     width: 40%;
+    border: 3px;
     height: auto;
     clip-path: circle(40%);
     rotate : 0deg;
@@ -53,15 +54,28 @@ button{
     rotate: -90deg;
 }
 
+
 #Next{
     rotate : 90deg;
 }
 
 .music-player{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
+
+.img-bg{
+    opacity: 0.5;
+    position: absolute;
+    filter: blur(5px);
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15%;
+    z-index: -1;
 }
 
